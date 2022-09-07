@@ -1,0 +1,85 @@
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.navbar a,
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+#work > li > span {
+  font-family: cursive;
+  text-align: right;
+}
+#work > li > i {
+  font-family: cursive;
+  text-align: left;
+}
+.navbar {
+  min-height: 40px !important
+;
+}
+#contact {
+  background-color: azure;
+}
+img {
+  width: 32px;
+  height: 30px;
+  /* border-left: 20px; */
+  border-left-width: 50px;
+}
+li {
+  list-style: none;
+}
+.certs > li {
+  list-style-type: square;
+}
+.edu {
+  float: left;
+  padding: 5px;
+  border: 0;
+}
+.edu > li {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+.fa-phone,
+.fa-map-marker,
+.fa-envelope {
+  color: rgb(24, 24, 59);
+}
+.fa-linkedin {
+  color: blue;
+}
+span.a {
+  display: inline-block; /* the default for span */
+  /* width: 100px; */
+  /* height: 100px; */
+  color: aliceblue;
+  text-align: center;
+  font-size: small;
+  border-radius: 7px;
+  /* padding: 0px rgb(9, 255, 0); */
+  padding-right: 5px red;
+  margin-top: 3px;
+  border: 5px solid navy;
+  background-color: navy;
+}
+body {
+  font-size: 11;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+a {
+  color: black;
+}
+h5 {
+  color: rgb(35, 83, 226);
+}
+h6 {
+  color: rgb(24, 24, 59);
+}
+h1 {
+  color: rgb(24, 24, 59);
+  /* font-family: cursive; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
