@@ -2,6 +2,55 @@
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
+/* .tops {
+  background-color: #fffff0;
+} */
+body {
+  font-size: 11;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgba(224, 224, 224, 0.1);
+}
+a {
+  color: black;
+}
+h1 {
+  color: rgb(24, 24, 59);
+  /* font-family: cursive; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h5 {
+  color: rgb(35, 83, 226);
+}
+h6 {
+  color: rgb(24, 24, 59);
+}
+li {
+  list-style: none;
+}
+.newsec {
+  background-color: rgba(224, 224, 224, 0.2);
+  border-radius: 10px;
+  padding: 20px green;
+}
+nav {
+  color: white;
+}
+.academics > h6 {
+  padding-bottom: 0px;
+  border-bottom: 0px;
+}
+.academics > li {
+  margin-bottom: 0.5em;
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+.academics > li > span {
+  display: block;
+}
+.navbar-brand {
+  font-weight: bolder;
+  color: yellowgreen;
+}
 .navbar a,
 .navbar {
   padding-top: 0 !important;
@@ -10,10 +59,20 @@
 #work > li > span {
   font-family: cursive;
   text-align: right;
+  /* color: rgb(2, 9, 70); */
 }
 #work > li > i {
   font-family: cursive;
   text-align: left;
+  /* color: rgb(2, 9, 70); */
+}
+#referees > li {
+  display: block;
+  margin-bottom: 1.1em;
+}
+#referees > li > span {
+  display: block;
+  padding: 0;
 }
 .navbar {
   min-height: 40px !important
@@ -28,9 +87,7 @@ img {
   /* border-left: 20px; */
   border-left-width: 50px;
 }
-li {
-  list-style: none;
-}
+
 .certs > li {
   list-style-type: square;
 }
@@ -42,6 +99,18 @@ li {
 .edu > li {
   list-style-type: circle;
   list-style-position: inside;
+}
+.hobby {
+  display: inline-block;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.hobby > ul > li {
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.hobby > ul > li > i {
+  text-align: left;
+  color: navy;
 }
 .fa-phone,
 .fa-map-marker,
@@ -55,31 +124,14 @@ span.a {
   display: inline-block; /* the default for span */
   /* width: 100px; */
   /* height: 100px; */
-  color: aliceblue;
+  color: white;
   text-align: center;
   font-size: small;
+  font-weight: 400;
   border-radius: 7px;
   /* padding: 0px rgb(9, 255, 0); */
   padding-right: 5px red;
   margin-top: 3px;
   border: 5px solid navy;
   background-color: navy;
-}
-body {
-  font-size: 11;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-a {
-  color: black;
-}
-h5 {
-  color: rgb(35, 83, 226);
-}
-h6 {
-  color: rgb(24, 24, 59);
-}
-h1 {
-  color: rgb(24, 24, 59);
-  /* font-family: cursive; */
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
